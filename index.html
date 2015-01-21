@@ -2,23 +2,144 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
+
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
+
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Welcome to Middleman</title>
-    
+    <title>Welcome to Hotel</title>
+
     <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="stylesheets/all.css" rel="stylesheet" type="text/css" />
     <script src="javascripts/all.js" type="text/javascript"></script>
   </head>
-  
+
   <body class="index">
-    <div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <a href="http://middlemanapp.com/">Read Online Documentation</a>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+    <div class="container-global">
+
+      <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+<a class="navbar-brand" href="./">              <img src="images/hotel.svg" />
+</a>          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+<a href="contact.html">                  <i class="fa fa-envelope-o"></i> Contact
+</a>              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <!-- <img src="http://placehold.it/30x30" class="img-avatar" alt=""> -->
+                A propos <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="">
+                    Nos chambres
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    Nos services
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                    Les environs
+                    </a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Avis Clients</a></li>
+                </ul>
+              </li>
+              <li>
+              <a href="#" class="btn">Réserver</a>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div id="banner">
+ <h1>HOTEL BOOM BOOM</h1>
+ <h3 id="banner">PARIS</h3>
+ <div id="container-button">
+   <a href="" class="btn btn-primary btn-lg">Réserver</a>
+ </div>
+</div>
+
+<div id="under-banner" class="padded text-center">
+ <div class="container">
+ <div class="row">
+   <div class="col-xs-12 col-sm-6 col-md-3">
+     <img src="images/bed.svg" />
+     <h2>Nos chambres</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+   </div>
+   <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="images/mec.svg" />
+     <h2>Nos services</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+   </div>
+   <div class="col-xs-12 col-sm-6 col-md-3">
+     <img src="images/map-flat.svg" />
+     <h2>Les environs</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+   </div>
+   <div class="col-xs-12 col-sm-6 col-md-3">
+     <img src="images/comments.svg" />
+     <h2>Avis Clients</h2>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+   </div>
+ </div>
+ </div>
+</div>
+
+<div id="box-nl" class="padded text-center">
+ <div class="form-container">
+   <h2>Get news from us</h2>
+   <p>Leave us your mail and get news</p>
+   <form action="" class="form-inline">
+     <input type="text" class="form-control" id='form-responsive' placeholder="exemple@mail.com">
+     <input type="submit" value="subscribe" class="btn btn-primary">
+   </form>
+ </div>
+</div>
+
+<div id="map" style="width: 100%; height: 400px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+
+  var myOptions = {
+    zoom: 16,
+    center: myLatlng,
+    scrollwheel: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"hue":"#0066ff"},{"saturation":74},{"lightness":100}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"off"},{"weight":0.6},{"saturation":-85},{"lightness":61}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"simplified"},{"color":"#5f94ff"},{"lightness":26},{"gamma":5.86}]}] // TODO: replace [] by array from https://snazzymaps.com/
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    title:"You are here!"
+  });
+</script>
+
+      <div id="footer">
+        <p>Mentions Légales</p>
+      </div>
+    </div>
+
   </body>
 </html>
