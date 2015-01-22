@@ -32,8 +32,10 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li>
-<a href="contact.html">                  <i class="fa fa-envelope-o"></i> Contact
-</a>              </li>
+                <a  href="#" data-toggle="modal" data-target="#myModal">
+                  <i class="fa fa-envelope-o"></i> Contact
+                </a>
+              </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                 <!-- <img src="http://placehold.it/30x30" class="img-avatar" alt=""> -->
@@ -41,27 +43,23 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                   <li>
-                    <a href="">
-                    Nos chambres
-                    </a>
-                  </li>
+<a class="btn" href="chambres/">                    Nos chambres
+</a>                  </li>
                   <li>
-                    <a href="">
-                    Nos services
-                    </a>
-                  </li>
+<a class="btn" href="services/">                    Nos services
+</a>                  </li>
                   <li>
-                    <a href="">
-                    Les environs
-                    </a>
-                  </li>
+<a class="btn" href="environs/">                    Les environs
+</a>                  </li>
                   <li class="divider"></li>
-                  <li><a href="#">Avis Clients</a></li>
+                  <li>
+<a class="btn" href="avis/">                    Avis Clients
+</a>                  </li>
                 </ul>
               </li>
               <li>
-              <a href="#" class="btn">Réserver</a>
-              </li>
+<a class="btn" href="reserver/">                Réserver
+</a>              </li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -69,35 +67,44 @@
 
       <div id="banner">
    <h1>HOTEL BOOM BOOM</h1>
-   <h3>PARIS</h3>
+   <h2>Paris - Belleville</h2>
    <div id="container-button">
-     <a href="" class="btn btn-primary btn-lg">Réserver</a>
+  <!--      <a href="" class="btn btn-primary btn-lg">Réserver</a> -->
+      <a href="reserver.html" class="btn-thomas">Réserver</a>
    </div>
 </div>
 
 <div id="under-banner" class="padded text-center">
  <div class="container">
  <div class="row">
-   <div class="col-xs-12 col-sm-6 col-md-3">
-     <img src="images/bed.svg" />
-     <h2>Nos chambres</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
-   </div>
-   <div class="col-xs-12 col-sm-6 col-md-3">
-      <img src="images/mec.svg" />
-     <h2>Nos services</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
-   </div>
-   <div class="col-xs-12 col-sm-6 col-md-3">
-     <img src="images/map-flat.svg" />
-     <h2>Les environs</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
-   </div>
-   <div class="col-xs-12 col-sm-6 col-md-3">
-     <img src="images/comments.svg" />
-     <h2>Avis Clients</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
-   </div>
+   <a href="chambres.html" target="blank">
+     <div class="col-xs-12 col-sm-6 col-md-3">
+       <img src="images/bed.svg" />
+       <h2>Nos chambres</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+     </div>
+   </a>
+   <a href="services.html" target="blank">
+     <div class="col-xs-12 col-sm-6 col-md-3">
+        <img src="images/mec.svg" />
+       <h2>Nos services</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+     </div>
+   </a>
+   <a href="environs.html" target="blank">
+     <div class="col-xs-12 col-sm-6 col-md-3">
+       <img src="images/map-flat.svg" />
+       <h2>Les environs</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+     </div>
+   </a>
+   <a href="avis.html" target="blank">
+     <div class="col-xs-12 col-sm-6 col-md-3">
+       <img src="images/comments.svg" />
+       <h2>Avis Clients</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+     </div>
+   </a>
  </div>
  </div>
 </div>
@@ -138,6 +145,25 @@
 
       <div id="footer">
         <p>Mentions Légales</p>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
 
