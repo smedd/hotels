@@ -8914,6 +8914,36 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+@keyframes fadeInHome {
+  0% {
+    opacity: 0;
+    top: -20px; }
+  100% {
+    opacity: 1;
+    top: 0; } }
+@-webkit-keyframes fadeInHome {
+  0% {
+    opacity: 0;
+    top: -20px; }
+  100% {
+    opacity: 1;
+    top: 0; } }
+@-moz-keyframes fadeInHome {
+  0% {
+    opacity: 0;
+    top: -20px; }
+  100% {
+    opacity: 1;
+    top: 0; } }
+/* line 49, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_animations.css.scss */
+.fadeInHome {
+  position: relative;
+  top: -20px;
+  opacity: 0;
+  animation: fadeInHome 0.3s 1s ease forwards;
+  -webkit-animation: fadeInHome 0.3s 1s ease forwards;
+  -moz-animation: fadeInHome 0.3s 1s ease forwards; }
+
 /* -------------------------------------
  * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
@@ -9154,14 +9184,21 @@ body, html {
   padding-top: 9em;
   text-align: center;
   position: relative; }
-  /* line 11, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 13, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  #banner i {
+    color: white;
+    font-size: 80px; }
+  /* line 18, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  #banner a {
+    outline: none; }
+  /* line 22, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 55px;
     color: white;
     letter-spacing: 2px;
     text-shadow: 0px 0px 8px white;
     letter-spacing: 0.11em; }
-  /* line 20, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 31, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner h2 {
     font-family: Graphik;
     font-size: 18px;
@@ -9172,31 +9209,36 @@ body, html {
     letter-spacing: 0.5em;
     text-shadow: 0px 0px 20px white; }
 
-/* line 33, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+/* line 44, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #under-banner {
   color: black;
   background-color: #F8F8F8; }
-  /* line 37, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 48, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #under-banner h2 {
     font-size: 20px; }
-  /* line 47, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 58, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #under-banner p {
     padding: 10px 10px 0px 10px;
     font-size: 15px; }
-  /* line 52, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 63, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #under-banner a {
     text-decoration: none; }
 
-/* line 58, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
-#box-nl {
+/* line 69, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+#mc_embed_signup {
   background-color: white; }
 
+/* line 73, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+#mc-button {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
 @media (max-width: 900px) {
-  /* line 63, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 80, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   .dropdown-menu {
     text-align: left; }
 
-  /* line 67, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 84, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   .dropdown-menu > li > a {
     color: black !important;
     text-align: left !important; } }
