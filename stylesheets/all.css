@@ -9187,7 +9187,7 @@ body, html {
   /* line 13, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner i {
     color: white;
-    font-size: 80px; }
+    font-size: 70px; }
   /* line 18, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner a {
     outline: none; }
@@ -9195,18 +9195,18 @@ body, html {
   #banner h1 {
     font-size: 55px;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1.5em;
     text-shadow: 0px 0px 8px white;
     letter-spacing: 0.11em; }
   /* line 31, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner h2 {
     font-family: Graphik;
-    font-size: 18px;
+    font-size: 25px;
     max-width: 550px;
     margin: auto;
-    padding: 60px 0px 0px 0px;
+    padding: 60px 0px 20px 0px;
     color: white;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.4em;
     text-shadow: 0px 0px 20px white; }
 
 /* line 44, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
@@ -9227,21 +9227,33 @@ body, html {
 /* line 69, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #mc_embed_signup {
   background-color: white; }
+  /* line 72, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  #mc_embed_signup h2 {
+    font-size: 30px; }
 
-/* line 73, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+/* line 77, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #mc-button {
   padding-top: 5px;
   padding-bottom: 5px; }
 
 @media (max-width: 900px) {
-  /* line 80, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 84, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   .dropdown-menu {
     text-align: left; }
 
-  /* line 84, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 88, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   .dropdown-menu > li > a {
     color: black !important;
-    text-align: left !important; } }
+    text-align: left !important; }
+
+  /* line 93, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  #banner
+  h1 {
+    font-size: 47px; }
+
+  /* line 98, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  h2 {
+    font-size: 14px; } }
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
