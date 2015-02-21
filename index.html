@@ -78,31 +78,31 @@
  <div class="container">
  <div class="row">
    <a href="chambres">
-     <div class="col-xs-12 col-sm-6 col-md-3" data-sr>
+     <div class="col-xs-12 col-sm-4 col-md-4" data-sr>
        <img src="images/bed.svg" />
        <h2>Nos chambres</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+       <p>Nous proposons des chambres de 1 à 4 personnes propres, simples et récemment rénovées. Elles disposent d'une salle de bain privative et d'une télévision. <i>Plus...</i></p>
      </div>
    </a>
-   <a href="services">
+<!--    <a href="services">
      <div class="col-xs-12 col-sm-6 col-md-3"  data-sr>
         <img src="images/mec.svg" />
        <h2>Nos services</h2>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
      </div>
-   </a>
+   </a> -->
    <a href="environs">
-     <div class="col-xs-12 col-sm-6 col-md-3" data-sr>
+     <div class="col-xs-12 col-sm-4 col-md-4" data-sr>
        <img src="images/map-flat.svg" />
        <h2>Les environs</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+       <p>L'hôtel est situé dans le 20ème arrondissement de Paris, plus particulièrement dans le quartier très vivant et accueillant de Belleville où la vie artistique est très active. <i>Plus...</i></p>
      </div>
    </a>
    <a href="avis">
-     <div class="col-xs-12 col-sm-6 col-md-3" data-sr>
+     <div class="col-xs-12 col-sm-4 col-md-4" data-sr>
        <img src="images/comments.svg" />
        <h2>Avis Clients</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis error quia omnis voluptate pariatur cum est dolore dolorum numquam, tenetur id! Impedit officia voluptatem, dolores dolor quisquam rerum illo voluptates!</p>
+       <p>Nous nous attachons à satisfaire nos clients autant que possible. Nous valorisons leurs retours afin de pouvoir améliorer leur expérience au maximum. <i>Plus...</i></p>
      </div>
    </a>
  </div>
@@ -123,7 +123,7 @@
    <div id="mc_embed_signup" class="padded text-center">
      <form action="//hotel-pyrenees.us8.list-manage.com/subscribe/post?u=16046ac11b6972327b8e4d0db&amp;id=66b57435ca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
        <div class="form-container" id="mc_embed_signup_scroll">
-        <h2>Rejoignez notre newsletter</h2>
+        <h2>Abonnez-vous à notre newsletter</h2>
          <div class="mc-field-group" id="mc-button">
           <label for="mce-EMAIL"></label>
           <input type="email" value="" name="EMAIL" class="required email form-control text-center" id="mce-EMAIL form-responsive" placeholder="exemple@mail.com">
@@ -141,7 +141,7 @@
             <div class="response" id="mce-success-response" style="display:none"></div>
           </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
            <div style="position: absolute; left: -5000px;"><input type="text" name="b_16046ac11b6972327b8e4d0db_66b57435ca" tabindex="-1" value=""></div>
-           <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+           <div class="clear"><input type="submit" value="Je m'abonne" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
        </div>
      </form>
    </div>
@@ -214,14 +214,21 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            <h4 class="modal-title" id="myModalLabel">N'hésitez pas à nous contacter !</h4>
           </div>
           <div class="modal-body">
-            ...
+            <p>Vous pouvez joindre la réception à tout moment au <strong>+33 (0)1 43 66 48 18</strong> ou nous envoyer un message via le formulaire de contact ci-dessous.
+            </p>
+            <form action="http://www.formspree.io/sarah.meddahi@gmail.com">
+                <input type="hidden" name="_subject" value="Objet" />
+                <input type="text" name="name" value="Ecrivez votre message ici">
+                <input type="email" name="_replyto" value="votre-email@mail.com">
+                <input type="submit" value="Envoyer" class="btn btn-primary">
+            </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+<!--             <button type="button" class="btn btn-primary">Save changes</button> -->
           </div>
         </div>
       </div>

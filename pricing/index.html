@@ -115,14 +115,21 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            <h4 class="modal-title" id="myModalLabel">N'hésitez pas à nous contacter !</h4>
           </div>
           <div class="modal-body">
-            ...
+            <p>Vous pouvez joindre la réception à tout moment au <strong>+33 (0)1 43 66 48 18</strong> ou nous envoyer un message via le formulaire de contact ci-dessous.
+            </p>
+            <form action="http://www.formspree.io/sarah.meddahi@gmail.com">
+                <input type="hidden" name="_subject" value="Objet" />
+                <input type="text" name="name" value="Ecrivez votre message ici">
+                <input type="email" name="_replyto" value="votre-email@mail.com">
+                <input type="submit" value="Envoyer" class="btn btn-primary">
+            </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+<!--             <button type="button" class="btn btn-primary">Save changes</button> -->
           </div>
         </div>
       </div>
