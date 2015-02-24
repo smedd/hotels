@@ -9046,6 +9046,7 @@ body, html {
     padding-bottom: 5px; }
   /* line 88, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
+    text-transform: uppercase;
     line-height: 40px;
     padding: 0 20px;
     color: black;
@@ -9054,49 +9055,87 @@ body, html {
     margin-top: 10px;
     background-color: white;
     font-size: 15px; }
-    /* line 98, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+    /* line 99, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
-      background-color: #b3b3b3; }
-  /* line 103, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+      background-color: #DE6E4B;
+      color: white; }
+  /* line 106, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg, .navbar-wagon .navbar-brand object {
     height: 50px;
     padding: 0px; }
-  /* line 108, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  /* line 111, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 116, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  /* line 119, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 122, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  /* line 125, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     text-align: right;
     background: rgba(78, 209, 185, 0.6); }
-    /* line 128, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+    /* line 130, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > .dropdown-menu .divider {
       background: black; }
+  /* line 138, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-wagon .dropdown-menu > li > a {
+    color: black; }
+  /* line 143, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-wagon .navbar-toggle {
+    border-color: black; }
+    /* line 145, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-wagon .navbar-toggle:hover {
+      background: white;
+      text-shadow: 0px 0px 10px white; }
+    /* line 149, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-wagon .navbar-toggle .icon-bar {
+      background-color: black; }
+
+/* line 155, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: black; }
 
 /* -------------------------------------
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 160, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  /* line 184, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-brand img, .navbar-brand svg, .navbar-brand object {
     height: 50px; }
 
-  /* line 163, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  /* line 187, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     display: block;
     color: black;
     padding-top: 0;
     padding-bottom: 0; } }
+/* -------------------------------------
+ * Navbar Modal Formspree
+ * ------------------------------------- */
+/* line 205, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+.modal-title {
+  color: #DE6E4B; }
+
+/* line 209, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+.modal-input-text {
+  text-align: justify;
+  width: 570px;
+  height: 200px;
+  margin: 10px auto; }
+
+/* line 216, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+.modal-input-email {
+  width: 570px;
+  margin-bottom: 20px; }
+
 /* -------------------------------------
  * Utilities classes
  * ------------------------------------- */
@@ -9182,11 +9221,11 @@ body, html {
 
 /* line 1, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #banner {
-  background-image: url("../images/city-classe.png");
+  background-image: url("../images/hotel-filtre-noir-50.png");
   background-size: cover;
   background-position: center center;
-  height: 650px;
-  padding-top: 12em;
+  height: 630px;
+  padding-top: 11em;
   text-align: center;
   position: relative; }
   /* line 13, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
@@ -9200,8 +9239,8 @@ body, html {
   #banner h1 {
     font-size: 55px;
     color: white;
-    letter-spacing: 1.5em;
-    text-shadow: 0px 0px 8px white;
+    letter-spacing: 1.8em;
+    text-shadow: 0px 0px 10px white;
     letter-spacing: 0.11em; }
   /* line 31, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner h2 {
@@ -9211,8 +9250,8 @@ body, html {
     margin: auto;
     padding: 60px 0px 20px 0px;
     color: white;
-    letter-spacing: 0.4em;
-    text-shadow: 0px 0px 20px white; }
+    letter-spacing: 0.3em;
+    text-shadow: 0px 0px 30px white; }
 
 /* line 44, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #under-banner {
