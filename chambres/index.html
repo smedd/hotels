@@ -11,6 +11,11 @@
 
     <link href="../stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="../stylesheets/all.css" rel="stylesheet" type="text/css" />
     <script src="../javascripts/all.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<!--     // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
   </head>
 
   <body class="fadeInHome chambres chambres_index">
@@ -65,54 +70,111 @@
         </div><!-- /.container-fluid -->
       </nav>
 
-      <div class="bg-chambres-white">
+      <!--
+  <div class="chambre-bg chambre-bg-two">
+    <div class="container">
+      <div class="row">
+
+          <div class="col-xs-12 col-sm-12 col-md-12" >
+            <div class="text-center card-hotel">
+              <h3>Chambre simple</h3>
+              <p>Hello</p>
+              <img src="../images" />
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="chambre-bg chambre-bg-two">
+    <div class="container">
+      <div class="row">
+
+          <div class="col-xs-12 col-sm-12 col-md-12" >
+            <div class="text-center card-hotel">
+              <h3>Chambre simple</h3>
+              <p>Hello</p>
+              <img src="../images" />
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="chambre-bg chambre-bg-two">
+    <div class="container">
+      <div class="row">
+
+          <div class="col-xs-12 col-sm-12 col-md-12" >
+            <div class="text-center card-hotel">
+              <h3>Chambre simple</h3>
+              <p>Hello</p>
+              <img src="../images" />
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+ -->
+
+
+<!-- Caroussel Slick -->
+
+<div id="chambres">
+  <h1>Nos Chambres</h1>
+  <div class="carousel-center" id="container-carousel">
+    <div><img src="/images/ch17.jpg" alt="" width="600px" height="300px"></div>
+    <div><img src="/images/ch40.jpg" alt="" width="600px" height="300px"></div>
+    <div><img src="/images/ch40.jpg" alt="" width="600px" height="300px"></div>
+  </div>
+  <div id="chambres-text">
+    Nous proposons des chambres de 1 à 4 personnes propres, simples et récemment rénovées. Elles disposent d'une salle de bain privative et d'une télévision. Une connexion Wi-Fi sécurisée est mise à votre disposition sans frais supplémentaires. Des petits déjeuners peuvent être commandés et servis en chambre.
+  </div>
 </div>
 
-  <div class="chambre-bg chambre-bg-two">
-    <div class="container">
-      <div class="row">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/slick/slick.min.js"></script>
 
-          <div class="col-xs-12 col-sm-12 col-md-12" >
-            <div class="text-center card-hotel">
-              <h3>Chambre simple</h3>
-              <p>Hello</p>
-              <img src="../images" />
-            </div>
-          </div>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.carousel-center').slick({
+    dots: true,
+    infinite: true,
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    fade: true,
+    cssEase: 'linear',
+    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+</script>
 
-      </div>
-    </div>
-  </div>
-  <div class="chambre-bg chambre-bg-two">
-    <div class="container">
-      <div class="row">
 
-          <div class="col-xs-12 col-sm-12 col-md-12" >
-            <div class="text-center card-hotel">
-              <h3>Chambre simple</h3>
-              <p>Hello</p>
-              <img src="../images" />
-            </div>
-          </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="chambre-bg chambre-bg-two">
-    <div class="container">
-      <div class="row">
-
-          <div class="col-xs-12 col-sm-12 col-md-12" >
-            <div class="text-center card-hotel">
-              <h3>Chambre simple</h3>
-              <p>Hello</p>
-              <img src="../images" />
-            </div>
-          </div>
-
-      </div>
-    </div>
-  </div>
 
 
       <div id="footer">
@@ -129,14 +191,25 @@
             <h4 class="modal-title" id="myModalLabel">N'hésitez pas à nous contacter !</h4>
           </div>
           <div class="modal-body">
-            <p>Vous pouvez joindre la réception à tout moment au <strong>+33 (0)1 43 66 48 18</strong> ou nous envoyer un message via le formulaire de contact ci-dessous.
-            </p>
-            <form action="http://www.formspree.io/sarah.meddahi@gmail.com">
-                <input type="hidden" name="_subject" value="Objet" />
-                <input type="text" name="name" value="" placeholder="Ecrivez votre message ici" class="modal-input-text">
+            <h5>Vous pouvez joindre la réception à tout moment :</h5>
+            <p><i class="fa fa-phone"></i>  +33 (0)1 43 66 48 18</p>
+            <p><i class="fa fa-envelope"></i>
+              <a href="mailto:contact@hoteldespyrenees.paris">  contact@hoteldespyrenees.paris</a></p>
+            <br>
+            <p>---</p>
+            <br>
+            <h5>Pour vous rendre à l'hôtel :</h5>
+            <p><i class="fa fa-home"></i>  399 bis, rue des Pyrénées - 75020 Paris</p>
+            <p><i class="fa fa-bus"></i>  Pyrénées (Métro Ligne 11)</p>
+            <p><i class="fa fa-bus"></i>  Pyrénées - Belleville (Bus Ligne 26)</p>
+
+            <!-- <form method="post" action="http://www.formspree.io/sarah.meddahi@gmail.com">
+                <input type="hidden" name="_subject" value="Objet">
+                <input type='hidden' name="_next" value="">
+                <textarea type="text" name="message" value="" placeholder="Ecrivez votre message ici" class="modal-input-text"></textarea>
                 <input type="email" name="_replyto" value="" placeholder="votre-email@mail.com" class="modal-input-email">
                 <input type="submit" value="Envoyer" class="btn btn-primary">
-            </form>
+            </form> -->
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -163,5 +236,6 @@
       });
     });
   </script>
+
   </body>
 </html>
