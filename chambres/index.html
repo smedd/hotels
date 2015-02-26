@@ -50,9 +50,9 @@
                   <li>
 <a class="btn" href="./">                    Nos chambres
 </a>                  </li>
-                  <li>
+<!--                   <li>
 <a class="btn" href="../services/">                    Nos services
-</a>                  </li>
+</a>                  </li> -->
                   <li>
 <a class="btn" href="../environs/">                    Les environs
 </a>                  </li>
@@ -63,6 +63,11 @@
                 </ul>
               </li>
               <li>
+                <a href="">
+                  <img src="images/english.svg" class="navbar-brand" alt="">
+                </a>
+              </li>
+              <li>
 <a class="btn" href="../reserver/">                Réserver
 </a>              </li>
             </ul>
@@ -70,111 +75,80 @@
         </div><!-- /.container-fluid -->
       </nav>
 
-      <!--
-  <div class="chambre-bg chambre-bg-two">
-    <div class="container">
-      <div class="row">
+      <div id="chambres-title">
+  <h1>Nos chambres</h1>
+</div>
 
-          <div class="col-xs-12 col-sm-12 col-md-12" >
-            <div class="text-center card-hotel">
-              <h3>Chambre simple</h3>
-              <p>Hello</p>
-              <img src="../images" />
+<div class="text-center">
+  <div class="container" id="container-chambres">
+    <div class="row" id="chambres-row">
+
+      <a href="">
+        <div class="col-xs-12 col-sm-6 col-md-6 wrapper-chambre" data-sr>
+          <div id="chambre-img-title">
+            <h3><strong> Chambre Simple</strong></h3>
+            <h4>A partir de 35€ par nuit</h4>
+            <p></p>
+            <br>
+            <div id="container-button-chambres">
+               <a href="reserver.html" class="btn-thomas">Réserver</a>
             </div>
           </div>
+          <img data-load="false" data-image-focal-point="0.5,0.5" src="/images/ch40.jpg" alt="">
+        </div>
+      </a>
 
-      </div>
-    </div>
-  </div>
-  <div class="chambre-bg chambre-bg-two">
-    <div class="container">
-      <div class="row">
-
-          <div class="col-xs-12 col-sm-12 col-md-12" >
-            <div class="text-center card-hotel">
-              <h3>Chambre simple</h3>
-              <p>Hello</p>
-              <img src="../images" />
+      <a href="">
+        <div class="col-xs-12 col-sm-6 col-md-6 wrapper-chambre" data-sr>
+          <div id="chambre-img-title">
+            <h3><strong>Chambre Double</strong></h3>
+            <h4>A partir de 50€ par nuit</h4>
+            <p></p>
+            <br>
+            <div id="container-button-chambres">
+               <a href="reserver.html" class="btn-thomas">Réserver</a>
             </div>
           </div>
+          <img data-load="false" data-image-focal-point="0.5,0.5" src="/images/ch40.jpg" alt="">
+        </div>
+      </a>
 
-      </div>
-    </div>
-  </div>
-  <div class="chambre-bg chambre-bg-two">
-    <div class="container">
-      <div class="row">
-
-          <div class="col-xs-12 col-sm-12 col-md-12" >
-            <div class="text-center card-hotel">
-              <h3>Chambre simple</h3>
-              <p>Hello</p>
-              <img src="../images" />
+      <a href="">
+        <div class="col-xs-12 col-sm-6 col-md-6 wrapper-chambre" data-sr>
+          <div id="chambre-img-title">
+            <h3><strong>Chambre Triple</strong></h3>
+            <h4>A partir de 75€ par nuit</h4>
+            <p></p>
+            <br>
+            <div id="container-button-chambres">
+               <a href="reserver.html" class="btn-thomas">Réserver</a>
             </div>
           </div>
+          <img data-load="false" data-image-focal-point="0.5,0.5" src="/images/ch40.jpg" alt="">
+        </div>
+      </a>
 
-      </div>
+      <a href="">
+        <div class="col-xs-12 col-sm-6 col-md-6 wrapper-chambre" data-sr>
+          <div id="chambre-img-title">
+            <h3><strong>Chambre Quadruple</strong></h3>
+            <h4>A partir de 90€ par nuit</h4>
+            <p></p>
+            <br>
+            <div id="container-button-chambres">
+               <a href="reserver.html" class="btn-thomas">Réserver</a>
+            </div>
+          </div>
+          <img data-load="false" data-image-focal-point="0.5,0.5" src="/images/ch17.jpg" alt="">
+        </div>
+      </a>
+
     </div>
-  </div>
- -->
-
-
-<!-- Caroussel Slick -->
-
-<div id="chambres">
-  <h1>Nos Chambres</h1>
-  <div class="carousel-center" id="container-carousel">
-    <div><img src="/images/ch17.jpg" alt="" width="600px" height="300px"></div>
-    <div><img src="/images/ch40.jpg" alt="" width="600px" height="300px"></div>
-    <div><img src="/images/ch40.jpg" alt="" width="600px" height="300px"></div>
-  </div>
-  <div id="chambres-text">
-    Nous proposons des chambres de 1 à 4 personnes propres, simples et récemment rénovées. Elles disposent d'une salle de bain privative et d'une télévision. Une connexion Wi-Fi sécurisée est mise à votre disposition sans frais supplémentaires. Des petits déjeuners peuvent être commandés et servis en chambre.
   </div>
 </div>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="/slick/slick.min.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.carousel-center').slick({
-    dots: true,
-    infinite: true,
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    fade: true,
-    cssEase: 'linear',
-    variableWidth: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
-});
-</script>
-
-
+<!--  data-type="image" style="top: 0px; left: 0px; width: 640 px; height: 420px"
+ -->
 
 
       <div id="footer">
