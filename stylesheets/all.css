@@ -9223,10 +9223,12 @@ body, html {
   background: white;
   padding-top: 100px;
   padding-bottom: 40px;
-  text-align: center; }
-  /* line 16, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%; }
+  /* line 18, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   #chambres-title::after {
-    top: 200px;
+    top: 270px;
     left: 50%;
     border-style: solid;
     -moz-border-top-colors: none;
@@ -9244,30 +9246,33 @@ body, html {
     border-width: 30px;
     margin-left: -30px;
     z-index: 10; }
-  /* line 36, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  /* line 38, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   #chambres-title h1 {
     color: #30343F;
     font-size: 30px; }
+  /* line 42, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  #chambres-title p {
+    font-size: 14px; }
 
-/* line 43, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+/* line 48, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
 #container-chambres {
   margin-bottom: 13.5px;
   margin-left: 0px;
   width: 100%; }
 
-/* line 50, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+/* line 55, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
 #chambres-row {
   background-color: #eee5e5; }
-  /* line 52, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  /* line 57, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   #chambres-row a {
     text-decoration: none; }
 
-/* line 58, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+/* line 63, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
 .wrapper-chambre {
   padding: 0px;
   opacity: 0.95;
   border: none; }
-  /* line 65, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  /* line 70, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   .wrapper-chambre img {
     width: 100%;
     height: 100%;
@@ -9275,7 +9280,7 @@ body, html {
     vertical-align: middle;
     border: 0px none; }
 
-/* line 75, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+/* line 80, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
 #chambre-img-title {
   background-color: rgba(238, 229, 229, 0.7);
   position: absolute;
@@ -9289,26 +9294,26 @@ body, html {
   padding-top: 25%;
   padding-bottom: 25%;
   opacity: 0; }
-  /* line 90, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  /* line 95, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   #chambre-img-title:hover {
     opacity: 1;
     transition: opacity 0.3s ease; }
-  /* line 96, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  /* line 101, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   #chambre-img-title h3 {
     color: rgba(48, 52, 63, 0.8);
     font-size: 20px;
     font-family: Graphik;
     text-transform: uppercase; }
-  /* line 103, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  /* line 108, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   #chambre-img-title h4 {
     color: rgba(48, 52, 63, 0.7);
     font-size: 18px;
     font-family: Graphik; }
-  /* line 109, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+  /* line 114, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   #chambre-img-title a {
     color: rgba(48, 52, 63, 0.7); }
 
-/* line 117, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
+/* line 122, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
 #container-button-chambres {
   position: absolute;
   width: 100%; }
