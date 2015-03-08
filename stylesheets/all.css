@@ -9218,6 +9218,22 @@ body, html {
   /* line 7, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/components/_form.css.scss */
   #form-responsive {
     margin-bottom: 10px; } }
+/* line 1, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_avis.css.scss */
+#avis-title {
+  background: white;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%; }
+  /* line 28, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_avis.css.scss */
+  #avis-title h1 {
+    color: #30343F;
+    font-size: 30px; }
+  /* line 32, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_avis.css.scss */
+  #avis-title p {
+    font-size: 14px; }
+
 /* line 11, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
 #chambres-title {
   background: white;
@@ -9250,7 +9266,7 @@ body, html {
 /* line 63, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
 .wrapper-chambre {
   padding: 0px;
-  opacity: 0.95;
+  opacity: 0.80;
   border: none; }
   /* line 70, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_chambres.css.scss */
   .wrapper-chambre img {
@@ -9330,7 +9346,7 @@ body, html {
 /* line 58, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_environs.css.scss */
 .wrapper-environs {
   padding: 0px;
-  opacity: 0.95;
+  opacity: 0.85;
   border: none; }
   /* line 65, /Users/sarahmeddahi/Desktop/FRONT-END/hotels/source/stylesheets/pages/_environs.css.scss */
   .wrapper-environs img {
