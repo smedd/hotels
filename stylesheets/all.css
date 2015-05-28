@@ -1173,7 +1173,7 @@ html {
 
 /* line 27, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Graphik";
+  font-family: "Open Sans", "sans-serif";
   font-size: 16px;
   line-height: 1.4;
   color: #333333;
@@ -1190,11 +1190,11 @@ textarea {
 
 /* line 48, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: rgba(78, 209, 185, 0.9);
+  color: rgba(250, 131, 72, 0.9);
   text-decoration: none; }
   /* line 52, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
-    color: rgba(43, 167, 144, 0.9);
+    color: rgba(239, 84, 7, 0.9);
     text-decoration: underline; }
   /* line 58, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
@@ -1268,7 +1268,7 @@ hr {
 /* line 9, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Gotham-Medium";
+  font-family: "Montserrat", "sans-serif";
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -1415,11 +1415,11 @@ mark,
 
 /* line 5, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: rgba(78, 209, 185, 0.9); }
+  color: rgba(250, 131, 72, 0.9); }
 
 /* line 8, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: rgba(49, 187, 162, 0.9); }
+  color: rgba(249, 97, 22, 0.9); }
 
 /* line 5, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-success {
@@ -1459,11 +1459,11 @@ a.text-danger:hover {
 
 /* line 5, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: rgba(78, 209, 185, 0.9); }
+  background-color: rgba(250, 131, 72, 0.9); }
 
 /* line 8, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: rgba(49, 187, 162, 0.9); }
+  background-color: rgba(249, 97, 22, 0.9); }
 
 /* line 5, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-success {
@@ -3408,23 +3408,23 @@ select[multiple].input-lg,
 /* line 63, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: rgba(78, 209, 185, 0.9);
-  border-color: rgba(58, 204, 177, 0.9); }
+  background-color: rgba(250, 131, 72, 0.9);
+  border-color: rgba(249, 114, 47, 0.9); }
   /* line 11, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: rgba(49, 187, 162, 0.9);
-    border-color: rgba(41, 159, 137, 0.9); }
+    background-color: rgba(249, 97, 22, 0.9);
+    border-color: rgba(229, 80, 6, 0.9); }
   /* line 21, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-    background-color: rgba(78, 209, 185, 0.9);
-    border-color: rgba(58, 204, 177, 0.9); }
+    background-color: rgba(250, 131, 72, 0.9);
+    border-color: rgba(249, 114, 47, 0.9); }
   /* line 40, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary .badge {
-    color: rgba(78, 209, 185, 0.9);
+    color: rgba(250, 131, 72, 0.9);
     background-color: #fff; }
 
 /* line 67, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3517,7 +3517,7 @@ select[multiple].input-lg,
 
 /* line 88, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: rgba(78, 209, 185, 0.9);
+  color: rgba(250, 131, 72, 0.9);
   font-weight: normal;
   border-radius: 0; }
   /* line 93, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3530,7 +3530,7 @@ select[multiple].input-lg,
     border-color: transparent; }
   /* line 107, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
-    color: rgba(43, 167, 144, 0.9);
+    color: rgba(239, 84, 7, 0.9);
     text-decoration: underline;
     background-color: transparent; }
   /* line 115, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3684,7 +3684,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: rgba(78, 209, 185, 0.9); }
+  background-color: rgba(250, 131, 72, 0.9); }
 
 /* line 101, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -4118,7 +4118,7 @@ tbody.collapse.in {
   /* line 46, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: rgba(78, 209, 185, 0.9); }
+    border-color: rgba(250, 131, 72, 0.9); }
   /* line 59, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
     height: 1px;
@@ -4165,7 +4165,7 @@ tbody.collapse.in {
   /* line 131, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: rgba(78, 209, 185, 0.9); }
+    background-color: rgba(250, 131, 72, 0.9); }
 
 /* line 144, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
 .nav-stacked > li {
@@ -4782,7 +4782,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.4;
       text-decoration: none;
-      color: rgba(78, 209, 185, 0.9);
+      color: rgba(250, 131, 72, 0.9);
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -4801,7 +4801,7 @@ tbody.collapse.in {
   .pagination > li > a:hover, .pagination > li > a:focus,
   .pagination > li > span:hover,
   .pagination > li > span:focus {
-    color: rgba(43, 167, 144, 0.9);
+    color: rgba(239, 84, 7, 0.9);
     background-color: #eeeeee;
     border-color: #ddd; }
   /* line 51, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_pagination.scss */
@@ -4811,8 +4811,8 @@ tbody.collapse.in {
   .pagination > .active > span:focus {
     z-index: 2;
     color: #fff;
-    background-color: rgba(78, 209, 185, 0.9);
-    border-color: rgba(78, 209, 185, 0.9);
+    background-color: rgba(250, 131, 72, 0.9);
+    border-color: rgba(250, 131, 72, 0.9);
     cursor: default; }
   /* line 63, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > .disabled > span,
@@ -4939,10 +4939,10 @@ a.label:hover, a.label:focus {
 
 /* line 48, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: rgba(78, 209, 185, 0.9); }
+  background-color: rgba(250, 131, 72, 0.9); }
   /* line 7, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-primary[href]:hover, .label-primary[href]:focus {
-    background-color: rgba(49, 187, 162, 0.9); }
+    background-color: rgba(249, 97, 22, 0.9); }
 
 /* line 52, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
@@ -4999,7 +4999,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   /* line 39, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-    color: rgba(78, 209, 185, 0.9);
+    color: rgba(250, 131, 72, 0.9);
     background-color: #fff; }
   /* line 44, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item > .badge {
@@ -5083,7 +5083,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: rgba(78, 209, 185, 0.9); }
+  border-color: rgba(250, 131, 72, 0.9); }
 
 /* line 9, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
@@ -5195,7 +5195,7 @@ a.thumbnail.active {
   line-height: 22px;
   color: #fff;
   text-align: center;
-  background-color: rgba(78, 209, 185, 0.9);
+  background-color: rgba(250, 131, 72, 0.9);
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5345,8 +5345,8 @@ a.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: rgba(78, 209, 185, 0.9);
-  border-color: rgba(78, 209, 185, 0.9); }
+  background-color: rgba(250, 131, 72, 0.9);
+  border-color: rgba(250, 131, 72, 0.9); }
   /* line 90, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-heading,
   .list-group-item.active .list-group-item-heading > small,
@@ -5358,7 +5358,7 @@ a.list-group-item {
     color: inherit; }
   /* line 95, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-    color: rgba(240, 251, 249, 0.9); }
+    color: rgba(255, 255, 255, 0.9); }
 
 /* line 4, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-success {
@@ -5719,22 +5719,22 @@ a.list-group-item-danger {
 
 /* line 247, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: rgba(78, 209, 185, 0.9); }
+  border-color: rgba(250, 131, 72, 0.9); }
   /* line 6, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-heading {
     color: #fff;
-    background-color: rgba(78, 209, 185, 0.9);
-    border-color: rgba(78, 209, 185, 0.9); }
+    background-color: rgba(250, 131, 72, 0.9);
+    border-color: rgba(250, 131, 72, 0.9); }
     /* line 11, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: rgba(78, 209, 185, 0.9); }
+      border-top-color: rgba(250, 131, 72, 0.9); }
     /* line 14, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading .badge {
-      color: rgba(78, 209, 185, 0.9);
+      color: rgba(250, 131, 72, 0.9);
       background-color: #fff; }
   /* line 20, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: rgba(78, 209, 185, 0.9); }
+    border-bottom-color: rgba(250, 131, 72, 0.9); }
 
 /* line 250, /Users/sarah/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_panels.scss */
 .panel-success {
@@ -6037,7 +6037,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Graphik";
+  font-family: "Open Sans", "sans-serif";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.4;
@@ -6148,7 +6148,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Graphik";
+  font-family: "Open Sans", "sans-serif";
   font-size: 16px;
   font-weight: normal;
   line-height: 1.4;
@@ -8950,7 +8950,7 @@ button.close {
 /* line 6, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_base.css.scss */
 body, html {
   height: 100%;
-  font-family: "Graphik"; }
+  font-family: "Open Sans", "sans-serif"; }
   /* line 10, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_base.css.scss */
   body a, html a {
     color: black; }
@@ -9010,7 +9010,7 @@ body, html {
 /* line 44, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   background: rgba(0, 0, 0, 0.6);
-  font-family: "Gotham-Medium";
+  font-family: "Montserrat", "sans-serif";
   font-weight: 400;
   padding-left: 20px;
   padding-right: 20px;
@@ -9023,7 +9023,7 @@ body, html {
   .navbar-wagon .navbar-nav > li > a:focus,
   .navbar-wagon .navbar-nav > .open > a:focus {
     outline: none;
-    color: white;
+    color: #EEE5E5;
     line-height: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -9041,7 +9041,7 @@ body, html {
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
-    color: white;
+    color: #EEE5E5;
     padding-top: 5px;
     padding-bottom: 5px; }
   /* line 89, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
@@ -9049,11 +9049,11 @@ body, html {
     text-transform: uppercase;
     line-height: 40px;
     padding: 0 20px;
-    color: black;
+    color: #EEE5E5;
     border-radius: 2px;
     border-color: black;
     margin-top: 10px;
-    background-color: white;
+    background-color: #fa8348;
     font-size: 15px; }
     /* line 100, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
@@ -9088,16 +9088,17 @@ body, html {
     color: black; }
   /* line 144, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
+    background: #EEE5E5;
     border-color: black; }
-    /* line 146, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+    /* line 147, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-toggle:hover {
       background: white;
       text-shadow: 0px 0px 10px white; }
-    /* line 150, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+    /* line 151, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-toggle .icon-bar {
       background-color: black; }
 
-/* line 156, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+/* line 157, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: black; }
@@ -9106,36 +9107,36 @@ body, html {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 185, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  /* line 186, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-brand img, .navbar-brand svg, .navbar-brand object {
     height: 50px; }
 
-  /* line 188, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  /* line 189, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     display: block;
-    color: white;
+    color: #EEE5E5;
     padding-top: 0;
     padding-bottom: 0; } }
 /* -------------------------------------
  * Navbar Modal Formspree
  * ------------------------------------- */
-/* line 206, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+/* line 207, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
 .modal-title {
   color: #DE6E4B;
   text-align: center;
   font-size: 22px; }
 
-/* line 212, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+/* line 213, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
 .modal-body {
   text-align: center;
   padding: 10%;
   font-size: 15px; }
-  /* line 216, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+  /* line 217, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
   .modal-body a {
     text-decoration: none; }
 
-/* line 221, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+/* line 222, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
 .modal-input-text {
   text-align: justify;
   width: 100%;
@@ -9144,7 +9145,7 @@ body, html {
   resize: none;
   padding: 5px; }
 
-/* line 230, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
+/* line 231, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/layout/_navbar.css.scss */
 .modal-input-email {
   width: 100%;
   margin-bottom: 20px; }
@@ -9400,19 +9401,20 @@ body, html {
   background-size: cover;
   background-position: center center;
   height: 630px;
-  padding-top: 11em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-top: 10em;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
-  position: relative; }
-  /* line 15, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  position: relative;
+  margin: 0px auto; }
+  /* line 16, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner i {
     color: white;
     font-size: 70px; }
-  /* line 20, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 21, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner a {
     outline: none; }
-  /* line 24, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 25, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 55px;
     color: white;
@@ -9421,72 +9423,108 @@ body, html {
     letter-spacing: 0.11em; }
   /* line 33, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #banner h2 {
-    font-family: Graphik;
     font-size: 25px;
     max-width: 550px;
     margin: auto;
     padding: 60px 0px 20px 0px;
     color: white;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
     text-shadow: 0px 0px 8px white; }
 
-/* line 46, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+/* line 45, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #banner-catchline {
   margin: 0px auto;
   padding-top: 15px;
   position: relative;
-  max-width: 550px; }
+  padding: 20px; }
 
 /* line 53, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #container-widget-bb {
   position: relative;
-  background-color: white; }
+  background-color: rgba(238, 229, 229, 0.91);
+  padding-top: 0px;
+  width: 300px;
+  margin: 0px auto;
+  border-radius: 4px; }
 
-/* line 58, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+/* line 62, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+#widget-bb-title {
+  height: 50px;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 9px;
+  font-size: 16px;
+  border-bottom: 1px solid grey; }
+
+/* line 71, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #widget-bb {
   position: relative;
-  background-color: white; }
+  margin: 0px auto;
+  border-bottom: 1px solid grey;
+  padding-left: 62px;
+  padding-top: 30px;
+  padding-bottom: 10px; }
 
-/* line 64, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+/* line 80, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+#widget-bb-footer {
+  height: 60px;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 8px; }
+
+/* line 88, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #under-banner {
   color: black;
   background-color: #EEE5E5; }
-  /* line 68, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 92, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #under-banner h2 {
     font-size: 20px; }
-  /* line 78, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 102, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #under-banner p {
     padding: 10px 10px 0px 10px;
-    font-size: 15px; }
-  /* line 83, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+    font-size: 15px;
+    font-weight: 300; }
+  /* line 108, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #under-banner a {
     text-decoration: none; }
 
-/* line 89, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+/* line 114, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
 #mc_embed_signup {
   background-color: white; }
-  /* line 92, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 117, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   #mc_embed_signup h2 {
     font-size: 30px; }
 
 @media (max-width: 900px) {
-  /* line 99, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 124, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   .dropdown-menu {
     text-align: left; }
 
-  /* line 103, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  /* line 128, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
   .dropdown-menu > li > a {
     color: black !important;
     text-align: left !important; }
 
-  /* line 108, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
-  #banner
-  h1 {
-    font-size: 47px; }
+  /* line 133, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  #banner {
+    padding-top: 3em; }
+    /* line 136, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+    #banner h1 {
+      font-size: 38px; }
+    /* line 140, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+    #banner h2 {
+      font-size: 16px;
+      padding: 20px; }
 
-  /* line 113, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
-  h2 {
-    font-size: 14px; } }
+  /* line 146, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  #container-widget-bb {
+    width: 250px; }
+
+  /* line 150, /Users/sarah/Desktop/FRONT-END/hotels/source/stylesheets/pages/_home.css.scss */
+  #widget-bb {
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-bottom: 10px; } }
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
